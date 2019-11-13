@@ -39,7 +39,7 @@
 - https://github.com/czhujer/h-platform-automation-core/tree/master/tf-owncloud
 - https://www.terraform.io/docs/index.html
 
-### ruby script/wrapper for lib-fog
+### ruby script/wrapper for library fog-proxmox
 - https://github.com/czhujer/h-platform-automation-core/tree/master/proxmox-owncloud
 - based on https://github.com/fog/fog-proxmox
 
