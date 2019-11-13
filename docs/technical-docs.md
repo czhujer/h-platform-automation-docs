@@ -12,7 +12,7 @@
 - managed by terraform provider
 
 ## CI/CD system - jenkins
-###jenkins
+### jenkins
 - task/build server
 - https://jenkins.io/doc/tutorials/
 - https://jenkins.io/doc/
@@ -20,10 +20,10 @@
   - creating over terraform/scripts, configuration over "puppet apply"
 - for jenkins server management itself
 
-jenkins basics:
-- basic tasks/objects are jobs
-- plugins for extented features
-- in HPA most actions in jobs are based on "execute shell"
+- jenkins basics:
+  - basic tasks/objects are jobs
+  - plugins for extented features
+  - in HPA most actions in jobs are based on "execute shell"
 
 - main used plugins:
   - slave plugin - for running jobs on proxmox master
@@ -33,12 +33,15 @@ jenkins basics:
   - conditonal builds (here for DNS records management) - https://plugins.jenkins.io/conditional-buildstep
   - artifacts - transfer info (VM/container ID/, IP address etc betwwen jobs) - https://wiki.jenkins.io/display/JENKINS/Copy+Artifact+Plugin
 
-## core management "plugins"
+## provisioning
+
 ### terraform
+- https://github.com/czhujer/h-platform-automation-core/tree/master/tf-owncloud
 - https://www.terraform.io/docs/index.html
 
 ### ruby script/wrapper for lib-fog
-- T.B.A.
+- https://github.com/czhujer/h-platform-automation-core/tree/master/proxmox-owncloud
+- based on https://github.com/fog/fog-proxmox
 
 ## Config Management
 
