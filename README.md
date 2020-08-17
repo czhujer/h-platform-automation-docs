@@ -32,11 +32,14 @@ T.B.A.
 ## technical overview
 [technical overview](docs/technical-docs.md)
 
-[monitoring](docs/monitoring-cs.md) (in czech)
-
 [development status](docs/development-status.md)
 
 [logging](docs/logging.md)
+
+## component overview
+[monitoring](docs/monitoring-cs.md) (in czech)
+
+[c&c server](docs/c-and-c-server.md) (in czech)
 
 ## repositories
 
