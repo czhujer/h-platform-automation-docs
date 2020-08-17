@@ -16,7 +16,7 @@
 - without dockerized website (wordpress)
 - without tracing
 
-
+high level diagram
 ![Drag Racing](pics/HPA-overview-schema.png)
 
 ### v2
@@ -71,3 +71,25 @@
 ## technical overview
 [technical overview](docs/technical-docs.md)
 
+## repositories
+
+### core
+https://github.com/czhujer/h-platform-automation-core/blob/master/README.md
+
+### cm
+https://github.com/czhujer/h-platform-automation-cm/blob/master/README.md
+
+### website
+https://github.com/czhujer/h-platform-automation-website/blob/master/README.md
+
+### monitoring
+https://github.com/czhujer/h-platform-automation-monitoring/blob/master/README.md
+
+### tracing
+https://github.com/czhujer/h-platform-automation-tracing/blob/master/README.md
+
+### C&C server (unde development)
+https://github.com/czhujer/h-platform-automation-cc-server/blob/master/README.md
+
+## message broker (testing purposes)
+https://github.com/czhujer/h-platform-automation-message-broker/blob/master/README.md
