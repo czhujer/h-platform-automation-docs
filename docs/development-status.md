@@ -2,7 +2,7 @@
 
 ## C&C server
   - not ready/under development
-  - calculoid support (v1 arch)
+  - only basic calculoid support (v1 arch)
     - webhook calls are received on http layer and parsed
     - we need feature for calling jenkins server
   - missing REST API
@@ -11,7 +11,8 @@
     - endpoint for calling terraform
     - endpoint for calling proxmox-provisioning-server (v2 arch)
   - missing vagrant support
-  - missing IaC/server (probably on HQ-server)
+  - missing IaC/server
+  - missing CI/CD pipelines for testing and docker builds
 
 ## proxmox master
   - https://github.com/czhujer/h-platform-automation-cm/issues
@@ -30,12 +31,7 @@
 
 ## HQ-server
   - https://github.com/czhujer/h-platform-automation-cm/issues
-  - jenkins server
-    - IaC doesn't cover jenkins plug-ins and jenkins jobs
-    - deprecated, will by erased
-  - missing IaC for firewall
-  - not dockerized
-  - based on (old) CentOS 7
+  - not dockerized nginx
 
 ## monitoring stack
   - https://github.com/czhujer/h-platform-automation-monitoring/issues

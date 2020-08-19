@@ -17,7 +17,7 @@
 
 ## core system(s)
 
-### C&C
+### C&C server
 - command and control server
 - web server in golang
 
