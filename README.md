@@ -3,17 +3,22 @@
 ## basic schema
 
 ### v2
+- added proxmox-provisioning-server for lxc containers support
 - added dockerized owncloud-stack (systemd service with docker-compose, VM based on CoreOS)
 - added website (wordpress) in docker-compose mode (on virtual machine)
 - added tracing (jaeger) in docker-compose mode (on virtual machine)
-- jenkins server will be deprecated
+- monitoring based on prometheus and grafana
+  - frontend proxy based on nginx
+  - tracing support
+- supported "apps": owncloud
+- jenkins server deprecated
 
 high level diagram
 
 T.B.A.
 
 ### v1
-- first version
+- first opensourced version
 - with customer modification (calculoid)
 - supported "apps": owncloud
 - supported infra (for apps):
