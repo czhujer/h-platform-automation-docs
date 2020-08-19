@@ -47,6 +47,8 @@ high level diagram
 
 [c&c server](docs/c-and-c-server.md) (in czech)
 
+[calculoid webook](docs/calculoid-webhook-url.md)
+
 ## repositories
 
 ### core
