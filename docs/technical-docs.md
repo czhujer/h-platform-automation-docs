@@ -3,45 +3,28 @@
 ## supported platforms
 
 ### proxmox - LXC containers
-- used in clusterless/standalone setup (Server(s): hpa-pxmX)
-- currently old stable, in future will be deprecated (for this project)
+- used in clusterless/standalone setup (server(s): hpa-pxmX)
 - management through WebUI, REST API or pct util
 
 ### vmware - vcenter
 - whole ecosystem for virtualization
 - managed by terraform provider
 
-## CI/CD system - jenkins
-### jenkins
-- task/build server
-- https://jenkins.io/doc/tutorials/
-- https://jenkins.io/doc/
-- for creating and management provisioned appliances/stacks
-  - creating over terraform/scripts, configuration over "puppet apply"
-- for jenkins server management itself
+## core system(s)
 
-- jenkins basics:
-  - basic tasks/objects are jobs
-  - plugins for extented features
-  - in HPA most actions in jobs are based on "execute shell"
-
-- main used plugins:
-  - slave plugin - for running jobs on proxmox master
-    - control over labels
-    - https://wiki.jenkins.io/display/JENKINS/SSH+Slaves+plugin
-  - multijob plugin - https://wiki.jenkins.io/pages/viewpage.action?pageId=59510168
-  - conditonal builds (here for DNS records management) - https://plugins.jenkins.io/conditional-buildstep
-  - artifacts - transfer info (VM/container ID/, IP address etc betwwen jobs) - https://wiki.jenkins.io/display/JENKINS/Copy+Artifact+Plugin
-
-## provisioning
+### C&C
+- command and control server
+- web server in golang
 
 ### terraform
+- provisining tool
+
 - https://github.com/czhujer/h-platform-automation-core/tree/master/tf-owncloud
 - https://www.terraform.io/docs/index.html
 
-### ruby script/wrapper for library fog-proxmox
-- https://github.com/czhujer/h-platform-automation-core/tree/master/proxmox-owncloud
-- based on https://github.com/fog/fog-proxmox
+### proxmox-provisioning-server
+- https://github.com/czhujer/h-platform-automation-core/tree/master/proxmox-provisioning-server
+- ruby web server with RestAPI
 
 ## Config Management
 
@@ -60,21 +43,6 @@
 - based on rspec framework for ruby
 - https://rspec-puppet.com/
 
-### serverspec tests
-- future
-- tests pro infrastrucre/servers in general
-- https://serverspec.org
-
-## git / gitolite
-- for versioning :)
-- git - https://git-scm.com/
-
-## DNS
-- old-stable domain: hcloud.cz
-- management over mysql server (direct SQL insert/delete)
-- for czechia/regzone.cz management over API -> script: dns_modify_regzone.php
-- usage: php dns_modify_regzone.php --login-name "${login_name}" --login-password "${login_password}" --record-name "oc-333" --action insert --record-ip "${ip_address}"
-
 ## LoadBalancer / central reverse-proxy server
 - used nginx on hpa-pxm1
 - config based on vhosts
@@ -86,7 +54,7 @@
 ### Owncloud
 
 #### OS
-- CentOS 7.x
+- CentOS 7.x/8.x
 
 #### web server
 Apache

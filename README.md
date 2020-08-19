@@ -2,6 +2,16 @@
 
 ## basic schema
 
+### v2
+- added dockerized owncloud-stack (systemd service with docker-compose, VM based on CoreOS)
+- added website (wordpress) in docker-compose mode (on virtual machine)
+- added tracing (jaeger) in docker-compose mode (on virtual machine)
+- jenkins server will be deprecated
+
+high level diagram
+
+T.B.A.
+
 ### v1
 - first version
 - with customer modification (calculoid)
@@ -18,16 +28,6 @@
 
 high level diagram
 ![Drag Racing](pics/HPA-overview-schema.png)
-
-### v2
-- added dockerized owncloud-stack (systemd service with docker-compose, VM based on CoreOS)
-- added website (wordpress) in docker-compose mode (on virtual machine)
-- added tracing (jaeger) in docker-compose mode (on virtual machine)
-- jenkins server will be deprecated
-
-high level diagram
-
-T.B.A.
 
 ## technical overview
 [technical overview](docs/technical-docs.md)
