@@ -15,21 +15,19 @@
 
 ## proxmox master
   - https://github.com/czhujer/h-platform-automation-cm/issues
-  - v1 arch setup supports only one master
   - IaC completely cover bootstrap proxmox VE
   - missing IaC for firewall
   - older debian (9) and unsupported proxmox VE version (5.4) 
   - missing PVE exporter (for prometheus)
-  
+  - v1 arch: setup supports only one master
+ 
 ## proxmox provisioning server
-  - runs on (every) proxmox master servers
-  - ruby web app with Rest API for creating lxc containers
-  - used sinatra framework, rack middleware
-  - prometheus sdk autoinstrumentatio
   - tracing support with opentracing-jaeger
   - compatible only with old (0.5.5) gem fog-proxmox, current 0.13.0
   - missing IaC for systemd unit
-  
+  - missing custom prometheus metrics
+  - prometheus sdk auto-instrumentation
+
 ## HQ-server
   - https://github.com/czhujer/h-platform-automation-cm/issues
   - jenkins server

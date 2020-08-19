@@ -24,7 +24,10 @@
 
 ### proxmox-provisioning-server
 - https://github.com/czhujer/h-platform-automation-core/tree/master/proxmox-provisioning-server
-- ruby web server with RestAPI
+- ruby web server with Rest API for creating lxc containers
+- runs on (every) proxmox master servers
+- used sinatra framework, rack middleware
+- with prometheus monitoring and opentelemetry-jaeger tracing
 
 ## Config Management
 
