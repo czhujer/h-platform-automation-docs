@@ -15,7 +15,8 @@
 
 high level diagram
 
-T.B.A.
+![Drag Racing](pics/HPA-overview-schema-v2.png)
+
 
 ### v1
 - first opensourced version
