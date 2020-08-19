@@ -1,6 +1,6 @@
 # H Platform Automation - Documentation
 
-## basic schema
+## basic description and schema
 
 ### v2
 - added proxmox-provisioning-server for lxc containers support
@@ -67,5 +67,5 @@ https://github.com/czhujer/h-platform-automation-tracing/blob/master/README.md
 ### C&C server (unde development)
 https://github.com/czhujer/h-platform-automation-cc-server/blob/master/README.md
 
-## message broker (testing purposes)
+### message broker (testing purposes)
 https://github.com/czhujer/h-platform-automation-message-broker/blob/master/README.md
