@@ -2,6 +2,11 @@
 
 ## supported platforms
 
+### libvirt-kvm on linux
+- only for owncloudstack based on docker
+- Fedora CoreOS with Ignition file
+- managed by terraform provider
+
 ### proxmox - LXC containers
 - used in clusterless/standalone setup (server(s): hpa-pxmX)
 - management through WebUI, REST API or pct util
