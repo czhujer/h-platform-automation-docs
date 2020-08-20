@@ -4,14 +4,19 @@
   - not ready/under development
   - only basic calculoid support (v1 arch)
     - webhook calls are received on http layer and parsed
-    - we need feature for calling jenkins server
-  - missing REST API
-    - endpoint for calling jenkins server (v1 arch)
-    - endpoint for calling dns handler (v1 arch)
-    - endpoint for calling terraform
-    - endpoint for calling proxmox-provisioning-server (v2 arch)
+    - missing calling jenkins server
+    - some TODOs in code     
+  - only basic jaeger support
+  - only auto-instrumented prometheus
+  - missing features
+    - api endpoint and calling terraform
+    - api endpoint and calling proxmox-provisioning-server (v2 arch)
+    - api endpoint and calling jenkins server (v1 arch compat)
+    - api endpoint and calling dns handler (v1 arch compat)
+    - calling scripts for Prom FileSD
+    - detailed prometheus monitoring
+    - better jaeger tracing
   - missing vagrant support
-  - missing IaC/server
   - missing CI/CD pipelines for testing and docker builds
 
 ## proxmox master
