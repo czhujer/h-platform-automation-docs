@@ -2,15 +2,16 @@
 
 ## C&C server
   - not ready/under development
+  - add web framework? Martini/Gin/Gorilla?
   - only basic calculoid support (v1 arch)
     - webhook calls are received on http layer and parsed
     - missing calling jenkins server
     - some TODOs in code     
   - only basic jaeger support
   - only auto-instrumented prometheus
+  - endpoint for proxmox-provisioning-server (v2 arch) has several TODOs
   - missing features
     - api endpoint and calling terraform
-    - api endpoint and calling proxmox-provisioning-server (v2 arch)
     - api endpoint and calling jenkins server (v1 arch compat)
     - api endpoint and calling dns handler (v1 arch compat)
     - calling scripts for Prom FileSD
