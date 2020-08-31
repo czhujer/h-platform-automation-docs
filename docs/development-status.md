@@ -2,7 +2,6 @@
 
 ## C&C server
   - not ready/under development
-  - add web framework? Martini/Gin/Gorilla?
   - only basic calculoid support (v1 arch)
     - webhook calls are received on http layer and parsed
     - missing calling jenkins server
@@ -17,6 +16,8 @@
     - calling scripts for Prom FileSD
     - detailed prometheus monitoring
     - better jaeger tracing
+    - html templating
+    - swagger support
   - missing vagrant support
   - missing CI/CD pipelines for testing and docker builds
 
