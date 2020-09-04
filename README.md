@@ -40,10 +40,12 @@ high level diagram
 
 [development status](docs/development-status.md)
 
-[logging](docs/logging.md)
+## details
+[jenkins jobs](docs/jenkins-jobs-cs.md) v1 arch, inCzech
 
-## component overview
 [monitoring](docs/monitoring-cs.md) (in czech)
+
+[logging](docs/logging.md)
 
 [c&c server](docs/c-and-c-server.md) (in czech)
 
