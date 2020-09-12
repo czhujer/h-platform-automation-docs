@@ -12,7 +12,7 @@
 - monitoring based on prometheus and grafana
   - frontend proxy based on nginx
   - tracing support
-- supported "apps": owncloud
+- supported "apps": owncloud-stack
 - jenkins server deprecated
 
 high level diagram

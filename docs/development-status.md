@@ -1,4 +1,14 @@
 # development status (of components)
+## apps
+### owncloud-stack
+  - VM, LXC
+    - based on Centos 7
+    - Mysql server 5.x, PHP-FPM 7.x, Apache, Redis
+    - prometheus exporters (node, apache, mysql, ..)
+  - DOCKER
+    - based on owncloud images (mariadb)
+    - added node and cadvisor exporters
+    
 ## common
   - missing support for php-opcache exporter
 
