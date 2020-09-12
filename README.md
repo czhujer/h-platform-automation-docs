@@ -3,12 +3,18 @@
 ## basic description and schema
 
 ### v2
-- added standalone server(s) for front-end proxy (based of traefik) (T.B.A.)
+- standalone server(s) for front-end proxy (based of traefik) (T.B.A.)
 - added proxmox-provisioning-server for lxc containers support
   - support for more proxmox servers/masters (T.B.A.)
-- added dockerized owncloud-stack (systemd service with docker-compose, VM based on CoreOS)
-- added website (wordpress) in docker-compose mode (on virtual machine)
-- added tracing (jaeger) in docker-compose mode (on virtual machine)
+- owncloud-stack based on LXC containers (proxmox) or Virtual Machines (vmare vcenter)
+  - fully puppetize setup (include bootstrap owncloud and bootstrap owncloud users)
+  - LAMP stack, based on Centos, configured over (masterless) Puppet & r10k
+- dockerized owncloud-stack
+  - systemd service in docker-compose (VM based on Fedora CoreOS)
+  - provisioning over terraform (support libvirt+kvm)
+  - support for C&C server (T.B.A.)
+- main website based on wordpress) - docker-compose mode (on virtual machine)
+- tracing based on jaeger - docker-compose mode (on virtual machine)
 - monitoring based on prometheus and grafana
   - frontend proxy based on nginx
   - tracing support
@@ -35,6 +41,7 @@ high level diagram
 - without tracing
 
 high level diagram
+
 ![Drag Racing](pics/HPA-overview-schema.png)
 
 ## technical overview

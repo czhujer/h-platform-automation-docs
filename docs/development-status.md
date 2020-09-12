@@ -8,7 +8,7 @@
   - DOCKER
     - based on owncloud images (mariadb)
     - added node and cadvisor exporters
-    
+
 ## common
   - missing support for php-opcache exporter
 
