@@ -1,4 +1,5 @@
 # H Platform Automation - Documentation
+modular PaaS solution (Platfrom as a service)
 
 ## basic description and schema
 
