@@ -3,7 +3,9 @@
 ## basic description and schema
 
 ### v2
+- added standalone server(s) for front-end proxy (based of traefik) (T.B.A.)
 - added proxmox-provisioning-server for lxc containers support
+  - support for more proxmox servers/masters (T.B.A.)
 - added dockerized owncloud-stack (systemd service with docker-compose, VM based on CoreOS)
 - added website (wordpress) in docker-compose mode (on virtual machine)
 - added tracing (jaeger) in docker-compose mode (on virtual machine)
@@ -73,3 +75,15 @@ https://github.com/czhujer/h-platform-automation-cc-server/blob/master/README.md
 
 ### message broker (testing purposes)
 https://github.com/czhujer/h-platform-automation-message-broker/blob/master/README.md
+
+## common info
+
+### tracing
+- https://speakerdeck.com/gianarb/distributed-tracing-faq
+
+### security
+- [DevSec Hardening Framework (https://dev-sec.io/)](https://dev-sec.io/)
+    - https://github.com/dev-sec/linux-baseline
+- https://securityhub.dev/
+- https://github.com/joatmon08/tdd-infrastructure#built-in-policies
+

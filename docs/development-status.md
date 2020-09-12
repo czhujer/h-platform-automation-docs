@@ -1,4 +1,6 @@
 # development status (of components)
+## common
+  - missing support for php-opcache exporter
 
 ## C&C server
   - not ready/under development
@@ -32,7 +34,7 @@
   - older debian (9) and unsupported proxmox VE version (5.4) 
   - missing (prometheus) PVE exporter
   - v1 arch: setup supports only one master
- 
+
 ## proxmox provisioning server
   - tracing support with opentracing-jaeger
   - compatible only with old (0.5.5) gem fog-proxmox, current 0.13.0
@@ -50,12 +52,15 @@
   - IaC don't cover bootstrap grafana DataSource and dashboards
   - not dockerized
   - based on (old) CentOS 7
-  
+
 ## tracing stack
   - dockerized (docker 19.03 on Ubuntu 20.04 LTS)
   - basic setup with jaeger 1.18
   - elasticsearch server for jaeger backend
-  
+
+## front-end proxy
+  - only basic setup with traefik
+
 ## infrastructure (repo)
-  - only support vagrant (with libvirt plugin)
+  - support vagrant with libvirt plugin
   - planned terraform for Digital Ocean
